@@ -1,0 +1,305 @@
+Windows Registry Editor Version 5.00
+
+;FIXES MATLAB FILE ASSOCIATIONS
+
+;REMOVES FIG FILE ASSOCIATIONS
+
+[-HKEY_CLASSES_ROOT\.fig]
+
+[-HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fig]
+
+;REMOVES M FILE ASSOCIATIONS
+
+[-HKEY_CLASSES_ROOT\.m]
+
+[-HKEY_CLASSES_ROOT\MATLAB.m.9.9.0]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.m]
+
+;REMOVES MAT FILE ASSOCIATIONS
+
+[-HKEY_CLASSES_ROOT\.mat]
+
+[-HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mat]
+
+;REMOVES MDL FILE ASSOCIATIONS
+
+[-HKEY_CLASSES_ROOT\.mdl]
+
+[-HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mdl]
+
+;REMOVES MEXW64 FILE ASSOCIATIONS
+
+[-HKEY_CLASSES_ROOT\.mexw64]
+
+[-HKEY_CLASSES_ROOT\MATLAB.mexw64.9.9.0]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mexw64]
+
+;REMOVES P FILE ASSOCIATIONS
+
+[-HKEY_CLASSES_ROOT\.p]
+
+[-HKEY_CLASSES_ROOT\MATLAB.p.9.9.0]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.p]
+
+;ADD SHELL OPEN
+
+[HKEY_CLASSES_ROOT\Applications\MATLAB.exe\shell\open\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\MATLAB.exe\" \"%1\""
+
+;ADD FIG FILE ASSOCIATIONS
+
+[HKEY_CLASSES_ROOT\.fig]
+@="MATLAB.fig.9.9.0"
+
+[HKEY_CLASSES_ROOT\.fig\OpenWithProgids]
+"MATLAB.fig.9.9.0"=""
+
+[HKEY_CLASSES_ROOT\.fig\Versions\MATLAB.fig.9.9.0]
+"FileVersionMS"=dword:00090009
+"FileVersionLS"=dword:00000000
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0]
+@="MATLAB Figure"
+"FriendlyTypeName"="@D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe,-62"
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0\DefaultIcon]
+@="D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\fig.ico,0"
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0\Shell\Open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0\Shell\Open\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe\""
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0\Shell\Open\ddeexec]
+@="uiopen('%1',1)"
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0\Shell\Open\ddeexec\application]
+@="ShellVerbs.Matlab.9.9.0"
+
+[HKEY_CLASSES_ROOT\MATLAB.fig.9.9.0\Shell\Open\ddeexec\topic]
+@="system"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fig\OpenWithProgids]
+"MATLAB.fig.9.9.0"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fig\OpenWithList]
+"a"="MATLAB.exe"
+"MRUList"="a"
+
+;ADD M FILE ASSOCIATIONS
+
+[HKEY_CLASSES_ROOT\.m]
+@="MATLAB.m.9.9.0"
+"Content Type"="text/plain"
+"PerceivedType"="Text"
+
+[HKEY_CLASSES_ROOT\.m\OpenWithProgids]
+"MATLAB.m.9.9.0"=""
+
+[HKEY_CLASSES_ROOT\.m\PersistentHandler]
+@="{5e941d80-bf96-11cd-b579-08002b30bfeb}"
+
+[HKEY_CLASSES_ROOT\.m\Versions\MATLAB.m.9.9.0]
+"FileVersionMS"=dword:00090009
+"FileVersionLS"=dword:00000000
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0]
+@="MATLAB Code"
+"FriendlyTypeName"="@D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe,-58"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\DefaultIcon]
+@="D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\m.ico,0"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Open\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe\""
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Open\ddeexec]
+@="uiopen('%1',1)"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Open\ddeexec\application]
+@="ShellVerbs.Matlab.9.9.0"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Open\ddeexec\topic]
+@="system"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Run]
+@="Run"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Run\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe\""
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Run\ddeexec]
+@="run('%1')"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Run\ddeexec\application]
+@="ShellVerbs.Matlab.9.9.0"
+
+[HKEY_CLASSES_ROOT\MATLAB.m.9.9.0\Shell\Run\ddeexec\topic]
+@="system"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.m\OpenWithProgids]
+"m_auto_file"=hex(0):
+"MATLAB.m.9.9.0"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.m\OpenWithList]
+"a"="MATLAB.exe"
+"MRUList"="a"
+
+;ADD MAT FILE ASSOCIATIONS
+
+[HKEY_CLASSES_ROOT\.mat]
+@="MATLAB.mat.9.9.0"
+
+[HKEY_CLASSES_ROOT\.mat\OpenWithProgids]
+"MATLAB.mat.9.9.0"=""
+
+[HKEY_CLASSES_ROOT\.mat\Versions\MATLAB.mat.9.9.0]
+"FileVersionMS"=dword:00090009
+"FileVersionLS"=dword:00000000
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0]
+@="MATLAB Data"
+"FriendlyTypeName"="@D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe,-59"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\DefaultIcon]
+@="D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\mat.ico,0"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Load]
+@="Load"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Load\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe\""
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Load\ddeexec]
+@="load('%1')"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Load\ddeexec\application]
+@="ShellVerbs.Matlab.9.9.0"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Load\ddeexec\topic]
+@="system"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Open\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe\""
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Open\ddeexec]
+@="uiimport('%1')"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Open\ddeexec\application]
+@="ShellVerbs.Matlab.9.9.0"
+
+[HKEY_CLASSES_ROOT\MATLAB.mat.9.9.0\Shell\Open\ddeexec\topic]
+@="system"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mat\OpenWithProgids]
+"MATLAB.mat.9.9.0"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mat\OpenWithList]
+"a"="MATLAB.exe"
+"MRUList"="a"
+
+;ADD MDL FILE ASSOCIATIONS
+
+[HKEY_CLASSES_ROOT\.mdl]
+@="MATLAB.mdl.9.9.0"
+
+[HKEY_CLASSES_ROOT\.mdl\OpenWithProgids]
+"MATLAB.mdl.9.9.0"=""
+
+[HKEY_CLASSES_ROOT\.mdl\Versions\MATLAB.mdl.9.9.0]
+"FileVersionMS"=dword:00090009
+"FileVersionLS"=dword:00000000
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0]
+@="Simulink Model"
+"FriendlyTypeName"="@D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe,-61"
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0\DefaultIcon]
+@="D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\mdl.ico,0"
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0\Shell\Load]
+@="Load"
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0\Shell\Load\command]
+@="\"D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe\""
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0\Shell\Load\ddeexec]
+@="uiopen('%1',1)"
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0\Shell\Load\ddeexec\application]
+@="ShellVerbs.Matlab.9.9.0"
+
+[HKEY_CLASSES_ROOT\MATLAB.mdl.9.9.0\Shell\Load\ddeexec\topic]
+@="system"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mdl\OpenWithProgids]
+"MATLAB.mdl.9.9.0"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mdl\OpenWithList]
+"a"="MATLAB.exe"
+"MRUList"="a"
+
+;ADD MEXW64 FILE ASSOCIATIONS
+
+[HKEY_CLASSES_ROOT\.mexw64]
+@="MATLAB.mexw64.9.9.0"
+
+[HKEY_CLASSES_ROOT\.mexw64\OpenWithProgids]
+"MATLAB.mexw64.9.9.0"=""
+
+[HKEY_CLASSES_ROOT\.mexw64\Versions\MATLAB.mexw64.9.9.0]
+"FileVersionMS"=dword:00090009
+"FileVersionLS"=dword:00000000
+
+[HKEY_CLASSES_ROOT\MATLAB.mexw64.9.9.0]
+@="MATLAB MEX"
+"FriendlyTypeName"="@D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe,-63"
+
+[HKEY_CLASSES_ROOT\MATLAB.mexw64.9.9.0\DefaultIcon]
+@="D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\mexw64.ico,0"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mexw64\OpenWithProgids]
+"MATLAB.mexw64.9.9.0"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mexw64\OpenWithList]
+
+;ADD P FILE ASSOCIATIONS
+
+[HKEY_CLASSES_ROOT\.p]
+@="MATLAB.p.9.9.0"
+
+[HKEY_CLASSES_ROOT\.p\OpenWithProgids]
+"MATLAB.p.9.9.0"=""
+
+[HKEY_CLASSES_ROOT\.p\Versions\MATLAB.p.9.9.0]
+"FileVersionMS"=dword:00090009
+"FileVersionLS"=dword:00000000
+
+[HKEY_CLASSES_ROOT\MATLAB.p.9.9.0]
+@="MATLAB P-code"
+"FriendlyTypeName"="@D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\matlab.exe,-60"
+
+[HKEY_CLASSES_ROOT\MATLAB.p.9.9.0\DefaultIcon]
+@="D:\\Program Files\\Polyspace\\R2020b\\bin\\win64\\p.ico,0"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.p\OpenWithProgids]
+"MATLAB.p.9.9.0"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.p\OpenWithList]
+
